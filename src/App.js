@@ -27,6 +27,12 @@ import MemoCounter from "./components/MemoCounter";
 import FocusInput from "./components/FocusInput";
 import ClassTimer from "./components/ClassTimer";
 import HookTimer from "./components/HookTimer";
+import DocTitleOne from "./components/DocTitleOne";
+import DocTitleTwo from "./components/DocTitleTwo";
+import CustomHookCounterOne from "./components/CustomHookCounterOne";
+import CustomHookCounterTwo from "./components/CustomHookCounterTwo";
+import UserFormOne from "./components/UserFormOne";
+import UserFormTwo from "./components/UserFormTwo";
 // context
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -97,8 +103,16 @@ function App() {
 
       {/* useRef */}
       {/* <FocusInput /> */}
-      <ClassTimer />
-      <HookTimer />
+      {/* <ClassTimer /> */}
+      {/* <HookTimer /> */}
+
+      {/* customHook */}
+      {/* <DocTitleOne /> */}
+      {/* <DocTitleTwo /> */}
+      {/* <CustomHookCounterOne /> */}
+      {/* <CustomHookCounterTwo /> */}
+      {/* <UserFormOne /> */}
+      <UserFormTwo />
     </div>
   );
 }
